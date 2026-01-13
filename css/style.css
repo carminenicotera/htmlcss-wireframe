@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +9,13 @@ body {
 }
 
 #site_header {
-  
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 
 /* post_card style */
@@ -20,4 +26,14 @@ body {
   margin-top: 4%;
   margin-bottom: 4%;
   padding: 3%
+}
+
+/* site_footer style */
+#site_footer {
+  padding-left: 15px;
+  padding-top: 10px;
+  border: solid;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
 }
