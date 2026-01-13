@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   width: 512px;
 }
@@ -6,6 +12,12 @@ body {
   
 }
 
+/* post_card style */
 .post_card {
-  
+  border-style: solid;
+  width: 327px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 3%
 }
